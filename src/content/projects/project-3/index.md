@@ -6,7 +6,7 @@ tags:
 - Nuxt 3
 - Daysi Ui
 - API
-demoUrl: https://techstore-puly-template.vercel.app/
+demoUrl: https://god-candle.netlify.app/
 ---
 
 Real-Time Quotes: Displays live quotes for all top 100 cryptocurrency assets, providing up-to-date market data for users.
