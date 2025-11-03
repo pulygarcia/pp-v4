@@ -14,6 +14,41 @@ const projects = (await getCollection("projects"))
 
 const stack = [
   { 
+    text: "Nest.js", 
+    icon: "nest", 
+    href: "https://nestjs.com" 
+  },
+  { 
+    text: "TypeORM", 
+    icon: "typeorm", 
+    href: "https://typeorm.com" 
+  },
+  { 
+    text: "Sequelize", 
+    icon: "sequelize", 
+    href: "https://sequelize.com" 
+  },
+  { 
+    text: "PostgreSQL", 
+    icon: "postgre", 
+    href: "https://postgresql.com" 
+  },
+  { 
+    text: "Next.js", 
+    icon: "next", 
+    href: "https://nextjs.com" 
+  },
+  { 
+    text: "Vuejs", 
+    icon: "vue", 
+    href: "https://vuejs.com" 
+  },
+  { 
+    text: "Tailwindcss", 
+    icon: "tailwind", 
+    href: "https://tailwindcss.com" 
+  },
+  { 
     text: "Javascript", 
     icon: "javascript", 
     href: "https://www.javascript.com" 
@@ -24,34 +59,19 @@ const stack = [
     href: "https://www.typescriptlang.org" 
   },
   { 
-    text: "Tailwindcss", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
-  },
-  { 
-    text: "Vuejs", 
-    icon: "vue", 
-    href: "https://vuejs.com" 
-  },
-  { 
     text: "Firebase", 
     icon: "firebase", 
     href: "https://firebase.com" 
   },
   { 
     text: "Node.js", 
-    icon: "node", 
+    icon: "nodejs", 
     href: "https://nodejs.com" 
   },
   { 
-    text: "Express", 
+    text: "Express.js", 
     icon: "express", 
     href: "https://expressjs.com" 
-  },
-  { 
-    text: "MongoDB", 
-    icon: "mongodb", 
-    href: "https://mongodb.com" 
   },
   { 
     text: "Git", 
@@ -132,40 +152,18 @@ const stack = [
       <!-- About Section -->
       <section class="animate" id="about">
         <article>
-          <p>I am a 22 years old <b><i>Developer</i></b>, <b><i>English B1 student</i></b> and <b><i>crypto enthusiast</i></b>.</p>
-          <p>I'm always building projects and studying using the best practices with vanguard technologies. My goal is continue growing on this field while developing skills in Backend development in order to be a complete and versatile profile. Ready to keep learning new things and perfect myself constantly.</p>
-          <p>I have built products ranging from marketing and ecommerce websites to control/administration Fullstack apps, good code practices with nice user interfaces.</p>
+          <p>I am a 22 years old <b><i>Developer</i></b>, <b><i>English B2</i></b>.</p>
+          <p>I'm always building projects and studying using the best practices with vanguard technologies. My goal is continue growing on this field while developing skills in order to be a complete and versatile profile. Ready to keep learning new things and perfect myself constantly.</p>
+          <p>I have developed a variety of projects, including fullstack court reservation system for sport club, CRMs, marketing websites, landing pages, blogs and other useful projects, always focusing on clean code and engaging user interfaces.</p>
           <p>Interested in...</p>
           <ul>
-            <li>Get an advanced English level.</li>
+            <li>Advancing my English skills.</li>
             <li>Being part of a developer team.</li>
+            <li>Working on challenging projects that push my skills and creativity.</li>
             <li>Crypto trading.</li>
-            <li>Sports like Padel and running.</li>
+            <li>Sports, especially F1, Pádel and MMA.</li>
           </ul>
         </article>
-      </section>
-
-      <!-- Projects Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent projects
-            </p>
-            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All projects
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {projects.map((project) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-            ))}
-          </ul>
-        </div>
       </section>
 
       <!-- Tech Stack Section -->
@@ -185,6 +183,30 @@ const stack = [
           </div>
         </div>
       </section>
+      
+      <!-- Projects Preview Section -->
+      <section class="animate">
+        <div class="space-y-4">
+          <div class="flex justify-between">
+            <p class="font-semibold text-black dark:text-white">
+              My projects
+            </p>
+            <a href="/projects" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+                All projects
+              </span>
+            </a>
+          </div>
+          <ul class="space-y-4">
+            {projects.map((project) => (
+              <li>
+                <ArrowCard entry={project} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
 
       <!-- Contact Section -->
       <section class="animate" id="contact">

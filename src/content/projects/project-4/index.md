@@ -1,25 +1,24 @@
 ---
-title: "Rest API Product tracker"
-summary: "Backend MVC app for products follow up with e-mail authentication"
+title: "Tech Store"
+summary: "Web site/app with authentication for admin panel and items catalog"
 draft: false
 tags:
-- Node.js
-- Express
-- MongoDB
-- Mailtrap
-- Bcrypt
-- Jsonwebtoken
-repoUrl: https://github.com/pulygarcia/product-tracker-rest-api
+- Vue 3
+- Tailwindcss
+- Pinia
+- Firebase
+demoUrl: https://techstore-puly-template.vercel.app/
+clientRepo: https://github.com/pulygarcia/techstore-vuefire
 ---
 
-REST API for Product Stock Tracking and Control. Includes functionalities like:
+Fullstack web app for Business Information and Items Catalog control. Includes functionalities like:
 
-User Registration and Authentication: Provides endpoints for user registration and authentication, utilizing email sending and JSON Web Tokens (JWT) for secure login sessions.
+Login: Firebase authentication to access the control panel.
 
-Security and Validation: The system includes robust validations to enhance security and minimize potential errors, ensuring data integrity and user safety.
+Catalog Management: Administrators can add items to the catalog by using Firebase's storage service. They can also edit the information of catalog items and delete them as needed.
 
-Frontend Integration: The repository contains a frontend app linked in the README for seamless interaction with the API.
+Confirmation Alerts: Every action, such as adding, editing, login or deleting items, is followed by confirmation notifications and alerts to ensure proper validation of the changes.
 
 
 
-![Product tracker](/product-tracker-login.PNG)
+![Tech store](/tecno-home.PNG)

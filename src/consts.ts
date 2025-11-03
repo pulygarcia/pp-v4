@@ -11,7 +11,7 @@ export const SITE: Site = {
 // Projects Page 
 export const PROJECTS: Page = {
   TITLE: "Projects",
-  DESCRIPTION: "Recent projects I have worked on.",
+  DESCRIPTION: "Some projects I have worked on.",
 }
 
 // Links
@@ -45,12 +45,6 @@ export const SOCIALS: Socials = [
     ICON: "linkedin",
     TEXT: "jose-ignacio-robledo",
     HREF: "https://www.linkedin.com/in/jose-ignacio-robledo/",
-  },
-  { 
-    NAME: "Twitter",
-    ICON: "twitter-x",
-    TEXT: "pulygarciadev",
-    HREF: "https://twitter.com/pulygarcia",
-  },
+  }
 ]
 

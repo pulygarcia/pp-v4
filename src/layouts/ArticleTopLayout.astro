@@ -10,7 +10,8 @@ const { collection, data, body } = entry
 const { title, summary } = data
 
 const demoUrl = collection === "projects" ? data.demoUrl : null
-const repoUrl = collection === "projects" ? data.repoUrl : null
+const clientRepo = collection === "projects" ? data.clientRepo : null
+const apiRepo = collection === "projects" ? data.apiRepo : null
 ---
 
 <div>
@@ -29,7 +30,7 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
   <div class="mt-1">
     {summary}
   </div>
-  {(demoUrl || repoUrl) && 
+  {(demoUrl || clientRepo) && 
   <div class="mt-4 flex flex-wrap gap-2">
     {demoUrl && 
       <a href={demoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
@@ -41,13 +42,23 @@ const repoUrl = collection === "projects" ? data.repoUrl : null
         </span>
       </a>
     }
-    {repoUrl && 
-      <a href={repoUrl} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+    {clientRepo && 
+      <a href={clientRepo} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
         <svg class="size-4">
           <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
         </svg>
         <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
-          See Repository
+          See client Repository
+        </span>
+      </a>
+    }
+    {apiRepo && 
+      <a href={clientRepo} target="_blank" class="group flex gap-2 items-center px-3 py-1.5 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend">
+        <svg class="size-4">
+          <use href="/ui.svg#link" class="fill-current group-hover:fill-black group-hover:dark:fill-white blend"/>
+        </svg>
+        <span class="text-current group-hover:text-black group-hover:dark:text-white blend">
+          See API Repository
         </span>
       </a>
     }

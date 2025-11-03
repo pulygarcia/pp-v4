@@ -1,18 +1,36 @@
 ---
-title: "God Candle"
-summary: "Web site about crypto with real time quotes"
+title: "Budget manager"
+summary: "Fullstack app for manage budget, expenses and incomes"
 draft: false
 tags:
-- Nuxt 3
-- Daysi Ui
-- API
-demoUrl: https://god-candle.netlify.app/
+- Next.Js
+- Tailwindcss
+- Headlessui
+- Zod
+- Typescript
+- Express.js
+- Sequelize
+- PostgreSQL
+- Testing
+- Email
+clientRepo: https://github.com/pulygarcia/Budget-control-Client
+apiRepo: https://github.com/pulygarcia/budget-control-back
 ---
 
-Real-Time Quotes: Displays live quotes for all top 100 cryptocurrency assets, providing up-to-date market data for users.
+Whether you're saving for a goal, your business budget or simply want to understand where your money goes, Budget Manager helps you stay in control with confidence.
 
-Information Sections: Offers various sections with information on high-potential projects, highly useful tools, strategies, and more to help users make informed investment decisions.
+---
+
+## Features
+
+- **Authentication & Roles** – Login and registration with role-based access (User, Admin).   
+- **Easy to use design** Easy-to-use interface designed for quick expense logging  
+- **Emails** – Email sending when forgot password, change password option and verify account 
+- **Error handling** – Custom error handling and data validation  
+- **Testing** – Full test coverage
+
+---
 
 
 
-![God Candle](/god-candle-quotes.PNG)
+![Budget control](/budget.PNG)

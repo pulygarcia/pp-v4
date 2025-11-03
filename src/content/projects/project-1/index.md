@@ -1,31 +1,37 @@
 ---
-title: "Il Postino"
-summary: "Restaurant control Fullstack app"
+title: "El Galpón"
+summary: "Fullstack reservation system for pádel club"
 draft: false
 tags:
-- Nuxt 3
-- Shadcn-vue
+- Nest.Js
+- TypeORM
+- PostgreSQL
 - Typescript
+- Next.js
 - Tailwindcss
-- Node.js
-- Express
-- MongoDB
-demoUrl: https://github.com/pulygarcia/Postino-ui-nuxt
-repoUrl: https://github.com/pulygarcia/postino-api-services
+- Zod
+- Email
+clientRepo: https://github.com/pulygarcia/Courts-reservations-client
+apiRepo: https://github.com/pulygarcia/Courts-reservations
 ---
 
-Fullstack web app for Restaurant follow up. Includes functionalities like:
+Fullstack web application built for a padel club to manage court reservations, track sales and product prices.
 
-Login: Register and Sesion start of users (employees or admin in this case).
+---
 
-Cashier: This section needs the current employee to be logged before enter, in order to save the sells with his/her account name into the history to avoid discrepances between the team members or money.
+## Features
 
-Sells history: All the sells registered by the cashier are gonna be in this section, it's not allowed to modify any sell to avoid money discrepances. They shows consumed items, the eployee that have registered the sell, and the amount has been collected in the sell. This view includes a chart where the user can see what are the quantity of sells on each month of the year.
+- **Authentication & Roles** – Login and registration with role-based access (User, Admin).  
+- **Court Reservations** – Users can select day, hour, and court to book simple and fixed reservations.  
+- **Conflict Prevention** – Automatically blocks overlapping or invalid reservations. Users can book courts up to one week ahead — reservations for later dates are not allowed. 
+- **Email Notifications** – Sends booking confirmations and cancellation notices.  
+- **Admin actions** – Manage stock, prices, and product list.  
+- **Cashier / Sales** – Employees can log each sale under their account to keep transparent financial records.  
+- **Sales & Reservation History** – Every transaction is stored; no edits allowed to avoid discrepancies.  
+- **Responsive UI** – Works seamlessly on desktop and mobile devices.  
 
-Staff members control: This section shows all the members of the staff and their information, like phone number, name, adress and current salary. It's important to say that only the user registered as administrator(or the owner) can salary and adress of the members to avoid dissatisfaction between members when they see differences in their pay. Or problems shows up between them.
-
-Menú: Menú items with fields like name, price and description. Admin user can modify the prices and all the data of these items.
+---
 
 
 
-![Il Postino Restaurant](/postino-cashier.PNG)
+![El Galpon reservas](/galpon-cap.PNG)
