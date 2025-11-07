@@ -23,3 +23,6 @@ It showcases the studio’s philosophy, featured projects, client testimonials, 
 - **Contact:** Contact form and studio information for inquiries and consultations.
 
 ![TucDesign](/td-cap.PNG)
+![TucDesign](/td-cap-2.PNG)
+![TucDesign](/td-map.PNG)
+![TucDesign](/td-about.PNG)

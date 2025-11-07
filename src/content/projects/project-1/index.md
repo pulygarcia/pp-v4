@@ -27,7 +27,7 @@ Fullstack web application built for a padel club to manage court reservations, t
 - **Email Notifications** – Sends booking confirmations and cancellation notices.  
 - **Admin actions** – Manage stock, prices, and product list.  
 - **Cashier / Sales** – Employees can log each sale under their account to keep transparent financial records.  
-- **Sales & Reservation History** – Every transaction is stored; no edits allowed to avoid discrepancies.  
+- **Sales & Reservation History** – Every transaction is stored by current club employee or owner; no edits allowed to avoid discrepancies.  
 - **Responsive UI** – Works seamlessly on desktop and mobile devices.  
 
 ---
@@ -35,3 +35,6 @@ Fullstack web application built for a padel club to manage court reservations, t
 
 
 ![El Galpon reservas](/galpon-cap.PNG)
+![El Galpon reservas](/caja-galpon.PNG)
+![El Galpon reservas](/historial-galpon.PNG)
+![El Galpon reservas](/precios-galpon.PNG)

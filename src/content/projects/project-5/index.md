@@ -16,3 +16,7 @@ Information Sections: Offers various sections with information on high-potential
 
 
 ![God Candle](/god-candle-quotes.PNG)
+![God Candle](/candle.PNG)
+![God Candle](/gc-intro.PNG)
+![God Candle](/gc-blog.PNG)
+![God Candle](/gc-exchanges.PNG)
