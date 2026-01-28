@@ -1,28 +1,40 @@
 ---
-title: "TucDesgin website"
-summary: "Modern website for an architecture and interior design studio"
+title: "El Galpón"
+summary: "Fullstack reservation system for pádel club"
 draft: false
 tags:
-- Vue 3
+- Nest.Js
+- TypeORM
+- PostgreSQL
 - Typescript
+- Next.js
 - Tailwindcss
-demoUrl: https://tuc-design.vercel.app
+- Zod
+- Email
+clientRepo: https://github.com/pulygarcia/Courts-reservations-client
+apiRepo: https://github.com/pulygarcia/Courts-reservations
+---
+
+Fullstack web application built for a padel club to manage court reservations, track sales and product prices.
+
+---
+
+## Features
+
+- **Authentication & Roles** – Login and registration with role-based access (User, Admin).  
+- **Court Reservations** – Users can select day, hour, and court to book simple and fixed reservations.  
+- **Conflict Prevention** – Automatically blocks overlapping or invalid reservations. Users can book courts up to one week ahead — reservations for later dates are not allowed. 
+- **Email Notifications** – Sends booking confirmations and cancellation notices.  
+- **Admin actions** – Manage stock, prices, and product list.  
+- **Cashier / Sales** – Employees can log each sale under their account to keep transparent financial records.  
+- **Sales & Reservation History** – Every transaction is stored by current club employee or owner; no edits allowed to avoid discrepancies.  
+- **Responsive UI** – Works seamlessly on desktop and mobile devices.  
+
 ---
 
 
-TucDesign is a modern, responsive website created for an architecture and interior design studio, focused in visual impact and clean design. 
-It showcases the studio’s philosophy, featured projects, client testimonials, and ways to contact or request a consultation.
 
-## Sections
-
-- **Home:** Elegant landing page introducing the studio’s vision and design approach.  
-- **About:** Describes the team, design philosophy, and core values.  
-- **Clients:** Displays opinions and testimonials from clients who have purchased the studio’s products or services. 
-- **Projects:** Gallery showcasing completed architectural and interior design works, with descriptions and photos.  
-- **FAQ:** Common questions about services, timelines, and collaboration process.  
-- **Contact:** Contact form and studio information for inquiries and consultations.
-
-![TucDesign](/td-cap.PNG)
-![TucDesign](/td-cap-2.PNG)
-![TucDesign](/td-map.PNG)
-![TucDesign](/td-about.PNG)
+![El Galpon reservas](/galpon-cap.PNG)
+![El Galpon reservas](/caja-galpon.PNG)
+![El Galpon reservas](/historial-galpon.PNG)
+![El Galpon reservas](/precios-galpon.PNG)

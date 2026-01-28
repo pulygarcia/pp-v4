@@ -1,24 +1,22 @@
 ---
-title: "Tech Store"
-summary: "Web site/app with authentication for admin panel and items catalog"
+title: "God Candle"
+summary: "Web blog about crypto with real time quotes"
 draft: false
 tags:
-- Vue 3
-- Tailwindcss
-- Pinia
-- Firebase
-demoUrl: https://techstore-puly-template.vercel.app/
-clientRepo: https://github.com/pulygarcia/techstore-vuefire
+- Nuxt 3
+- Daysi Ui
+- API
+demoUrl: https://god-candle.netlify.app/
 ---
 
-Fullstack web app for Business Information and Items Catalog control. Includes functionalities like:
+Real-Time Quotes: Displays live quotes for all top 100 cryptocurrency assets, providing up-to-date market data for users.
 
-Login: Firebase authentication to access the control panel.
-
-Catalog Management: Administrators can add items to the catalog by using Firebase's storage service. They can also edit the information of catalog items and delete them as needed.
-
-Confirmation Alerts: Every action, such as adding, editing, login or deleting items, is followed by confirmation notifications and alerts to ensure proper validation of the changes.
+Information Sections: Offers various sections with information on high-potential projects, highly useful tools, strategies, and more to help users make informed investment decisions.
 
 
 
-![Tech store](/tecno-home.PNG)
+![God Candle](/god-candle-quotes.PNG)
+![God Candle](/candle.PNG)
+![God Candle](/gc-intro.PNG)
+![God Candle](/gc-blog.PNG)
+![God Candle](/gc-exchanges.PNG)

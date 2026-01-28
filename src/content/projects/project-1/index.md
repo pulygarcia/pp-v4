@@ -1,40 +1,51 @@
 ---
-title: "El Galpón"
-summary: "Fullstack reservation system for pádel club"
+title: "WTB Fighting"
+summary: "Platform for events, management and martial arts statistics"
 draft: false
 tags:
 - Nest.Js
 - TypeORM
 - PostgreSQL
+- Nuxt 4
+- Pinia
 - Typescript
-- Next.js
+- Shadcn
 - Tailwindcss
 - Zod
-- Email
+- API
 clientRepo: https://github.com/pulygarcia/Courts-reservations-client
 apiRepo: https://github.com/pulygarcia/Courts-reservations
 ---
 
-Fullstack web application built for a padel club to manage court reservations, track sales and product prices.
+Complete fullstack web platform for events, management and martial arts statistics.
 
 ---
 
 ## Features
 
 - **Authentication & Roles** – Login and registration with role-based access (User, Admin).  
-- **Court Reservations** – Users can select day, hour, and court to book simple and fixed reservations.  
-- **Conflict Prevention** – Automatically blocks overlapping or invalid reservations. Users can book courts up to one week ahead — reservations for later dates are not allowed. 
-- **Email Notifications** – Sends booking confirmations and cancellation notices.  
-- **Admin actions** – Manage stock, prices, and product list.  
-- **Cashier / Sales** – Employees can log each sale under their account to keep transparent financial records.  
-- **Sales & Reservation History** – Every transaction is stored by current club employee or owner; no edits allowed to avoid discrepancies.  
-- **Responsive UI** – Works seamlessly on desktop and mobile devices.  
-
+- **Admin Dashboard** – Full administrative panel to manage events, fight cards, fighters, results, and rankings.
+- **Events Management** – View upcoming and past events with detailed information for each one.
+- **Fight Cards & Main Event** – Complete event fight cards with highlighted main event.
+- **Fighter Profiles** – Detailed fighter profiles including physical stats, weight class, and bouts history.
+- **Fight Results & Statistics** – For past events, users can access fight results and statistics such as strikes landed, knockdowns, and more.
+- **External API Integration** – Real-time news consumed from third-party APIs.
+- **Data Integrity & Validation** – Controlled data management to ensure consistency across events, fighters, and results.
 ---
 
+Designed to simulate a real-world sports organization platform with admin-level control and scalable data management.
 
 
-![El Galpon reservas](/galpon-cap.PNG)
-![El Galpon reservas](/caja-galpon.PNG)
-![El Galpon reservas](/historial-galpon.PNG)
-![El Galpon reservas](/precios-galpon.PNG)
+![WTB Fighting](/home-wtb.PNG)
+![WTB Fighting](/cartelera-wtb.PNG)
+![WTB Fighting](/wtb-pre-fight.PNG)
+![WTB Fighting](/wtb-post-fight.PNG)
+![WTB Fighting](/wtb-rankings.PNG)
+![WTB Fighting](/wtb-fighter.PNG)
+![WTB Fighting](/wtb-news.PNG)
+![WTB Fighting](/admin-panel-wtb.PNG)
+![WTB Fighting](/wtb-admin-fighters.PNG)
+![WTB Fighting](/wtb-login.PNG)
+![WTB Fighting](/wtb-register-fighter.PNG)
+![WTB Fighting](/wtb-edit-fighter.PNG)
+![WTB Fighting](/wtb-delete-fighter.PNG)
