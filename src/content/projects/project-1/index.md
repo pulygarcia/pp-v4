@@ -13,8 +13,8 @@ tags:
 - Tailwindcss
 - Zod
 - API
-clientRepo: https://github.com/pulygarcia/Courts-reservations-client
-apiRepo: https://github.com/pulygarcia/Courts-reservations
+clientRepo: https://github.com/pulygarcia/way-to-belt-client
+apiRepo: https://github.com/pulygarcia/way-to-belt
 ---
 
 Complete fullstack web platform for events, management and martial arts statistics.
