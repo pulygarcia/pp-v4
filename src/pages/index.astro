@@ -13,60 +13,65 @@ const projects = (await getCollection("projects"))
   .slice(0,3)
 
 const stack = [
-  { 
-    text: "Nest.js", 
-    icon: "nest", 
-    href: "https://nestjs.com" 
+  {
+    text: "Typescript",
+    icon: "typescript",
+    href: "https://www.typescriptlang.org"
   },
-  { 
-    text: "Next.js", 
-    icon: "next", 
-    href: "https://nextjs.com" 
+  {
+    text: "Node.js",
+    icon: "nodejs",
+    href: "https://nodejs.org"
   },
-  { 
-    text: "Vuejs", 
-    icon: "vue", 
-    href: "https://vuejs.com" 
+  {
+    text: "Nest.js",
+    icon: "nest",
+    href: "https://nestjs.com"
   },
-  { 
-    text: "Nuxt", 
-    icon: "nuxt", 
-    href: "https://nuxt.com" 
+  {
+    text: "Vuejs",
+    icon: "vue",
+    href: "https://vuejs.org"
   },
-  { 
-    text: "TypeORM", 
-    icon: "typeorm", 
-    href: "https://typeorm.com" 
+  {
+    text: "Next.js",
+    icon: "next",
+    href: "https://nextjs.org"
   },
-  { 
-    text: "PostgreSQL", 
-    icon: "postgre", 
-    href: "https://postgresql.com" 
+  {
+    text: "Tailwindcss",
+    icon: "tailwind",
+    href: "https://tailwindcss.com"
   },
-  { 
-    text: "Tailwindcss", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
+  {
+    text: "shadcn/ui",
+    icon: "shadcn",
+    href: "https://ui.shadcn.com"
   },
-  { 
-    text: "Typescript", 
-    icon: "typescript", 
-    href: "https://www.typescriptlang.org" 
+  {
+    text: "PostgreSQL",
+    icon: "postgre",
+    href: "https://postgresql.org"
   },
-  { 
-    text: "Node.js", 
-    icon: "nodejs", 
-    href: "https://nodejs.com" 
+  {
+    text: "TypeORM",
+    icon: "typeorm",
+    href: "https://typeorm.io"
   },
-  { 
-    text: "Git", 
-    icon: "git", 
-    href: "https://git.com" 
+  {
+    text: "Jest",
+    icon: "jest",
+    href: "https://jestjs.io"
   },
-  { 
-    text: "Github", 
-    icon: "github", 
-    href: "https://github.com" 
+  {
+    text: "Git",
+    icon: "git",
+    href: "https://git-scm.com"
+  },
+  {
+    text: "Github",
+    icon: "github",
+    href: "https://github.com"
   },
 ]
 ---
@@ -116,10 +121,13 @@ const stack = [
             José Ignacio
           </p>
           <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
-            Currently creating useful projects and always learning.
+           23 y/o developer with professional fintech experience, building clean and modern software.
           </p>
           <div id="ctaButtons" class='animated flex flex-wrap gap-4 justify-center mt-5'>
-            <a href='/projects' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+            <a href='#about' class='py-2 px-4 rounded truncate text-xs md:text-sm lg:text-base bg-black dark:bg-white text-white dark:text-black hover:opacity-75 blend'>
+              About me
+            </a>
+            <a href='/projects' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
               Latest projects
             </a>
             <a href='#contact' class='py-2 px-4 truncate rounded text-xs md:text-sm lg:text-base border border-black/25 dark:border-white/25 hover:bg-black/5 hover:dark:bg-white/15 blend'>
@@ -129,6 +137,12 @@ const stack = [
         </div>
       </div>
     </div>
+    <a href="#about" aria-label="Scroll to about section" class="animated absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 text-black/60 dark:text-white/60 hover:text-black dark:hover:text-white blend">
+      <span class="text-[10px] md:text-xs uppercase tracking-[0.2em]">Scroll</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="animate-bounce">
+        <polyline points="6 9 12 15 18 9"></polyline>
+      </svg>
+    </a>
   </section>
 
   <div class="relative bg-white dark:bg-black">
@@ -137,17 +151,9 @@ const stack = [
       <!-- About Section -->
       <section class="animate" id="about">
         <article>
-          <p>I am a 23 years old <b><i>Developer</i></b>, <b><i>English B1</i></b>.</p>
-          <p>I'm always building projects and studying using the best practices with vanguard technologies. My goal is continue growing while developing skills in order to be a complete and versatile profile. Ready to keep learning new things.</p>
-          <p>I have developed a variety of projects, including fullstack reservations system for sport club, Management Systems, Customized tools, and digital presence sites. Always focusing on clean code and engaging user interfaces.</p>
-          <p>Interested in...</p>
-          <ul>
-            <li>Being part of a developer team.</li>
-            <li>Advancing my English skills.</li>
-            <li>Working on challenging projects that push my skills and creativity.</li>
-            <li>Crypto trading.</li>
-            <li>Sports, especially F1, Pádel and MMA.</li>
-          </ul>
+          <p>I am a 23 years old <b><i>Developer</i></b>, <b><i>English B1</i></b>, with <b><i>+1 year of professional experience</i></b> working at a fintech that facilitates access to housing in Chile, Brazil and Peru, contributing to a <b>SaaS platform for mortgage credit management</b> — applying <b>SOLID principles</b> and working with a <b>Service-oriented architecture</b>.</p>
+          <p>I develop using <b>AI-assisted workflows</b> and modern methodologies such as <b>Spec-Driven Development</b>, and I'm always studying with best practices and modern technologies always focusing on clean code and engaging user interfaces.</p>
+          <p>I'm looking for a place that brings new challenges and learning opportunities to keep growing in my career: a team where I can contribute to products with real impact, take ownership of meaningful work, and sharpen my skills alongside experienced engineers.</p>
         </article>
       </section>
 
